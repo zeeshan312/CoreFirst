@@ -4,13 +4,14 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace CoreFirstPrimer.Models.NHL
+namespace CoreFirst.Models.NHL
 {
     public class Team
     {
-        [Key]
-        [MaxLength(30)]
-        public int TeamID { get; set; }
+        // [Key]
+       //  [MaxLength(50)]
+        public int TeamId { get; set; }
+        public string TeamName { get; set; }
         public string City { get; set; }
         public string Province { get; set; }
 

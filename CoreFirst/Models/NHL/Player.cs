@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace CoreFirstPrimer.Models.NHL
+namespace CoreFirst.Models.NHL
 {
     public class Player
     {
@@ -15,7 +15,7 @@ namespace CoreFirstPrimer.Models.NHL
 
 
 
-        public int TeamID { get; set; }
+        public int TeamId { get; set; }
         public Team Team { get; set; }
 
     }
