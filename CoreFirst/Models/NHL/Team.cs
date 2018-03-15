@@ -19,5 +19,6 @@ namespace CoreFirst.Models.NHL
         public List<Player> Players { get; set; }
         public int country { get; set; }
         public Country countries { get; set; }
+      
     }
 }

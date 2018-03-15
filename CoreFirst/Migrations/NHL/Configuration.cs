@@ -1,6 +1,6 @@
 namespace CoreFirst.Migrations.NHL
 {
-    using CoreFirstPrimer.Data;
+    using CoreFirst.Data;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -29,16 +29,20 @@ namespace CoreFirst.Migrations.NHL
             //    );
             //
 
-            context.Teams.AddOrUpdate(
-                t => t.TeamName, DummyData.getTeams().ToArray());
 
+            context.countries.AddOrUpdate(
+                c => c.Id, DummyData.getCountries().ToArray());
+            context.SaveChanges();
+
+            context.Teams.AddOrUpdate(
+                t => t.TeamId, DummyData.getTeams().ToArray());
             context.SaveChanges();
 
             context.Players.AddOrUpdate(
                 p => new { p.FirstName, p.LastName }, DummyData.getPlayers().ToArray());
-            context.countries.AddOrUpdate(
-                c => c.Id, DummyData.getCountries().ToArray()
-                );
+            context.SaveChanges(); 
+            
+                
         }
     }
 }

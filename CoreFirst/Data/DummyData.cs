@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace CoreFirstPrimer.Data
+namespace CoreFirst.Data
 {
     public class DummyData
     {
@@ -15,10 +15,10 @@ namespace CoreFirstPrimer.Data
             {
 
                 new Team() {
-          TeamId = 20,TeamName ="Canucks", City = "Vancouver",Province = "BC",},
+          TeamId = 20,TeamName ="Canucks", City = "Vancouver",Province = "BC",country= 12345},
 
                 new Team() {
-                      TeamId = 30, TeamName ="Oiler",City = "Edmonton",Province = "Alberta",},
+                      TeamId = 30, TeamName ="Oiler",City = "Edmonton",Province = "Alberta",country=54321},
 
                 new Team() {
                             TeamId= 40, TeamName ="Flames",City = "Calgary",Province = "Alberta",}
@@ -59,7 +59,7 @@ namespace CoreFirstPrimer.Data
                 },
 
                 new Country {
-                    Id = 1345,Name = "spain"
+                    Id = 54321,Name = "spain"
                 }
 
 
