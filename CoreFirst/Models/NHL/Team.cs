@@ -8,17 +8,21 @@ namespace CoreFirst.Models.NHL
 {
     public class Team
     {
-        // [Key]
+        //[Key]
        //  [MaxLength(50)]
         public int TeamId { get; set; }
         public string TeamName { get; set; }
         public string City { get; set; }
         public string Province { get; set; }
+        public int PlayerId { get; set; }
+
+
 
 
         public List<Player> Players { get; set; }
         public int country { get; set; }
         public Country countries { get; set; }
-      
+        public Player player { get; set; }
+
     }
 }

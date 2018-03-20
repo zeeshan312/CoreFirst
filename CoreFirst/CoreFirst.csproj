@@ -207,6 +207,34 @@
     <Compile Include="Migrations\NHL\201803150702478_initial.Designer.cs">
       <DependentUpon>201803150702478_initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\NHL\201803150829355_final.cs" />
+    <Compile Include="Migrations\NHL\201803150829355_final.Designer.cs">
+      <DependentUpon>201803150829355_final.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\NHL\201803190645407_initialagain.cs" />
+    <Compile Include="Migrations\NHL\201803190645407_initialagain.Designer.cs">
+      <DependentUpon>201803190645407_initialagain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\NHL\201803190931135_errorhai.cs" />
+    <Compile Include="Migrations\NHL\201803190931135_errorhai.Designer.cs">
+      <DependentUpon>201803190931135_errorhai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\NHL\201803190935158_errorhai1.cs" />
+    <Compile Include="Migrations\NHL\201803190935158_errorhai1.Designer.cs">
+      <DependentUpon>201803190935158_errorhai1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\NHL\201803190951082_heaven.cs" />
+    <Compile Include="Migrations\NHL\201803190951082_heaven.Designer.cs">
+      <DependentUpon>201803190951082_heaven.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\NHL\201803200610076_nextday.cs" />
+    <Compile Include="Migrations\NHL\201803200610076_nextday.Designer.cs">
+      <DependentUpon>201803200610076_nextday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\NHL\201803201106362_finally.cs" />
+    <Compile Include="Migrations\NHL\201803201106362_finally.Designer.cs">
+      <DependentUpon>201803201106362_finally.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\NHL\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -296,6 +324,27 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\NHL\201803150702478_initial.resx">
       <DependentUpon>201803150702478_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\NHL\201803150829355_final.resx">
+      <DependentUpon>201803150829355_final.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\NHL\201803190645407_initialagain.resx">
+      <DependentUpon>201803190645407_initialagain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\NHL\201803190931135_errorhai.resx">
+      <DependentUpon>201803190931135_errorhai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\NHL\201803190935158_errorhai1.resx">
+      <DependentUpon>201803190935158_errorhai1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\NHL\201803190951082_heaven.resx">
+      <DependentUpon>201803190951082_heaven.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\NHL\201803200610076_nextday.resx">
+      <DependentUpon>201803200610076_nextday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\NHL\201803201106362_finally.resx">
+      <DependentUpon>201803201106362_finally.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -39,10 +39,10 @@ namespace CoreFirst.Migrations.NHL
             context.SaveChanges();
 
             context.Players.AddOrUpdate(
-                p => new { p.FirstName, p.LastName }, DummyData.getPlayers().ToArray());
-            context.SaveChanges(); 
-            
-                
+                p => p.PlayerId, DummyData.getPlayers().ToArray());
+            context.SaveChanges();
+
+
         }
     }
 }

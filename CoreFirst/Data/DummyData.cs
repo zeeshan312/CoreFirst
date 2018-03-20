@@ -21,7 +21,7 @@ namespace CoreFirst.Data
                       TeamId = 30, TeamName ="Oiler",City = "Edmonton",Province = "Alberta",country=54321},
 
                 new Team() {
-                            TeamId= 40, TeamName ="Flames",City = "Calgary",Province = "Alberta",}
+                            TeamId= 40, TeamName ="Flames",City = "Calgary",Province = "Alberta",country= 123}
                             };
             return teams;
 
@@ -31,16 +31,16 @@ namespace CoreFirst.Data
         {
             List<Player> Players = new List<Player>() {
                 new Player {
-                    FirstName = "sven",LastName = "BAERTSCHI",TeamId = 20,Position = "Forward",PlayerId=1,},
+                  PlayerId=1,  FirstName = "sven",LastName = "BAERTSCHI",TeamId = 20,Position = "Forward"},
 
                 new Player {
-                    FirstName = "Henrik",LastName = "Sedin",TeamId = 20,Position = "Left Wing"},
+                   PlayerId= 2, FirstName = "Henrik",LastName = "Sedin",TeamId = 20,Position = "Left Wing"},
 
                 new Player {
-                    FirstName = "John",LastName = "Rooster",TeamId = 30,Position = "Right Wing"},
+                   PlayerId= 3, FirstName = "John",LastName = "Rooster",TeamId = 30,Position = "Right Wing"},
 
                 new Player {
-                    FirstName = "Bob",LastName = "Plumber",TeamId= 40,Position = "Defence"},
+                  PlayerId= 4,  FirstName = "Bob",LastName = "Plumber",TeamId= 40,Position = "Defence"},
                             };
             return Players;
         }
@@ -60,6 +60,10 @@ namespace CoreFirst.Data
 
                 new Country {
                     Id = 54321,Name = "spain"
+                },
+
+                new Country {
+                    Id = 123,Name = "germany"
                 }
 
 
