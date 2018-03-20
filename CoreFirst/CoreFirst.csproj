@@ -196,8 +196,11 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CountriesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PlayersController.cs" />
+    <Compile Include="Controllers\TeamsController.cs" />
     <Compile Include="Data\DummyData.cs" />
     <Compile Include="Data\NhlContext.cs" />
     <Compile Include="Global.asax.cs">
@@ -234,6 +237,10 @@
     <Compile Include="Migrations\NHL\201803201106362_finally.cs" />
     <Compile Include="Migrations\NHL\201803201106362_finally.Designer.cs">
       <DependentUpon>201803201106362_finally.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\NHL\201803201212434_showingthreetables.cs" />
+    <Compile Include="Migrations\NHL\201803201212434_showingthreetables.Designer.cs">
+      <DependentUpon>201803201212434_showingthreetables.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\NHL\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -311,6 +318,21 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Teams\Create.cshtml" />
+    <Content Include="Views\Teams\Delete.cshtml" />
+    <Content Include="Views\Teams\Details.cshtml" />
+    <Content Include="Views\Teams\Edit.cshtml" />
+    <Content Include="Views\Teams\Index.cshtml" />
+    <Content Include="Views\Players\Create.cshtml" />
+    <Content Include="Views\Players\Delete.cshtml" />
+    <Content Include="Views\Players\Details.cshtml" />
+    <Content Include="Views\Players\Edit.cshtml" />
+    <Content Include="Views\Players\Index.cshtml" />
+    <Content Include="Views\Countries\Create.cshtml" />
+    <Content Include="Views\Countries\Delete.cshtml" />
+    <Content Include="Views\Countries\Details.cshtml" />
+    <Content Include="Views\Countries\Edit.cshtml" />
+    <Content Include="Views\Countries\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -345,6 +367,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\NHL\201803201106362_finally.resx">
       <DependentUpon>201803201106362_finally.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\NHL\201803201212434_showingthreetables.resx">
+      <DependentUpon>201803201212434_showingthreetables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
